@@ -1,6 +1,6 @@
 
 const Project = require('../models/Project')
-const Clent =  require('../models/Client')
+const Client =  require('../models/Client')
 
 const {
     GraphQLObjectType,
@@ -11,7 +11,7 @@ const {
        GraphQLNonNull,
        GraphQLEnumType,
     } = require('graphql');
-const Client = require('../models/Client');
+
 
     //Project Type
  const ProjectType = new GraphQLObjectType({

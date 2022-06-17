@@ -4,4 +4,4 @@ const mongoose = require('mongoose')
      const conn = await mongoose.connect(process.env.MONGO_URI) 
      console.log(`mongoDB connected: ${conn.connection.host}`)
  }
- module.exports= connectDB
+ module.exports = connectDB
